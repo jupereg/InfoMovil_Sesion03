@@ -19,7 +19,8 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/service_question"
+        android:id="@+id/tip_result"
+        tools:text="Tip Amount: $10" />
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -78,6 +79,7 @@
 
     <TextView
         android:id="@+id/tip_result"
+        tools:text="Tip Amount: $10" />
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/tip_amount"
